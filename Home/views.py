@@ -1,8 +1,12 @@
-from django.shortcuts import render,HttpResponse
+from django.shortcuts import render, HttpResponse
+from django.contrib.auth.models import User
+from django.urls import reverse
+import re
+from django.contrib.auth import login, logout, authenticate
 
-# Create your views here.
+
 def index(request):
-    return render(request,'index.html')
+    return render(request, 'Home/index.html')
 
 # def login(request):
 #     return render(request,'login.html')
