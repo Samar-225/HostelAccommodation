@@ -1,0 +1,32 @@
+body {
+    font-size: 100%;
+  }
+
+h1{
+
+    margin:auto;
+    text-align:center;
+}
+ul {
+    list-style-type: none;
+}
+
+.flex{
+    height: 400px;
+    width: 70%;
+    background-color: powderblue;
+    margin:auto;
+    margin-top:0.5em;
+    border-radius:0.3rem;
+    text-align:center;
+    padding:0.5rem;
+  }
+
+  span{
+      color:red;
+  }
+
+  ul img{
+    height: 100px;
+    width: 100px;
+  }
